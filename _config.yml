@@ -1,0 +1,51 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: 까만세상 탈출기
+brief-intro: IT 개발자이고 싶은 잡학다식者
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://kimjongtae.github.io" # the base hostname & protocol for your site
+
+permalink: /:year/:month/:day/:title/
+
+# other links
+twitter_username:
+facebook_username: 
+github_username:  blackkjt
+email: blackkjt@gmail.com
+
+description_footer: 내 삶의길을 따라 막 기록합니다.
+
+# comments
+# two ways to comment, only choose one, and use your own short name
+duoshuo_shortname: #hygblog
+disqus_shortname: blackkjt
+
+# Build settings
+markdown: kramdown
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+# port
+# port: 1234
+
+# url
+category_dir: category/
+tag_dir: tag/
+
+# excerpt
+excerpt_separator: "\n\n\n\n"
+
+# paginate
+gems: [jekyll-paginate]
+paginate: 10
+
+plugins:
+  - jekyll-paginate
